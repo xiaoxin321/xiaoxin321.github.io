@@ -1,0 +1,373 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="基于boostrap的作品首页,web开发小组">
+    <meta name="author" content="静水流深">
+    <link rel="icon" href="Images/logo.jpg">
+
+    <title>基于boostrap的作品首页</title>
+
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+
+    <link href="CSS/carousel.css" rel="stylesheet">
+
+
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/ie8-responsive-file-warning.js"></script>
+    <![endif]-->
+
+    <script src="JavaScript/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <link href="CSS/carousel.css" rel="stylesheet">
+    <link href="CSS/style.css" rel="stylesheet">
+    <script src="JavaScript/backtop.js"></script>
+</head>
+<body>
+<div class="navbar-wrapper">
+    <div class="container">
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <!--导航条的头部-->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">切换导航</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand a1" href="#">WEB特工组</a>
+                </div>
+
+
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav a2">
+                        <li class="active"><a href="#">首页</a></li>
+                        <li><a href="zufang.html" target="_blank">租房</a></li>
+                        <li><a href="friend.html" target="_blank">交友</a></li>
+                        <li><a href="study.html" target="_blank">学长都知道</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">资讯 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">图书会</a></li>
+                                <li><a href="#">跳蚤街</a></li>
+                                <li><a href="shiwuzhaohui.html" target="_blank">失物招领</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">新闻</li>
+                                <li><a href="#">招聘信息</a></li>
+                                <li><a href="#">业务推广</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="navbar-right rigiste">
+                     <a class="btn btn-primary" href="login.html" target="_blank">登陆</a>
+
+                </div>
+
+            </div>
+        </nav>
+
+    </div>
+</div>
+
+
+<!--切换导航的具体部分 -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img class="first-slide" src="Images/wallpaper1.jpg" alt="First slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>紫薇阁公寓出租</h1>
+                    <p>三号楼五楼西户 三室一厅 <code>半价出租</code> 水电网物业全免 支持长短期全租或合租 紧邻家乐福与车站 床上用品均为高档全新进口纯棉材质 拎包即可入住 支持看房与留言 </p>
+                    <p>十八号楼阁楼 求女性金融考研室友 有阳台和独立卫生间 <code>环境极优</code> 价格面议 只要求晚归时间不晚于11点和爱干净 有意者请留言 下晚自习后集中回复</p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">点击我</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img class="second-slide" src="Images/wallpager2.jpg" alt="Second slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>我的大学要谈一场恋爱</h1>
+                    <p class="p1">To <code class="active">love</code> someone in secret is like a seed in bottle waiting for growing up, though not sure whether the future will be more beautiful, still waiting it earnestly and eagerly.</p>
+                    <p class="p1">青春，需要一场轰轰烈烈的 <code>恋爱</code> 每天每天，波澜不惊地过着，情绪有好的时候，也有不好的时候。若有了 他/她 时光就像塞舌尔的那些沙子一样 纯净 <code>温暖</code></p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">交个朋友</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img class="third-slide" src="Images/wallpager3.jpg" alt="Third slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>学长这个题怎么做</h1>
+                    <p>If by <code class="active">trouble</code> you were deceived , don't be dismal , don't be wild . In the day of grief, be mild , <code class="active">seniors</code> will come , believe . Merry days will come, believe.</p>
+                    <p>如果你对专业课已经焦头烂额&nbsp;&nbsp;&nbsp;如果你苦于不知去哪锻炼自己&nbsp;&nbsp;&nbsp;如果你想了解表白成功三十六计&nbsp;&nbsp;&nbsp;只要你有问题&nbsp;&nbsp;&nbsp;那么就请呼叫 <code>亲爱的学长</code>吧</p>                    <p><a class="btn btn-lg btn-primary" href="#" role="button">一起讨论</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">上一屏</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">下一屏</span>
+    </a>
+</div>
+
+
+
+   <!--内容以卡贴的形式展示-->
+<div class="container marketing">
+
+
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="img-circle" src="Images/house.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>紫藤阁</h2>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            采用欧式后现代风格，建筑形体富于明丽时尚的时代气息，又渗透稳重大气的古典气质。造型语言简练，充分体现建筑本身的形体和比例，建筑底部与顶部着重处理，形成典雅的三段式建筑形体感；阳台、飘窗等建筑语言富于变化，形成流畅、和谐的韵律感</p>
+            <p><a class="btn btn-default" href="#" role="button">了解更多 &raquo;</a></p>
+        </div>
+
+        <div class="col-lg-4">
+            <img class="img-circle" src="Images/house1.jpg" alt="Generic placeholder image" width="140" height="140">
+           <h2>常青藤</h2>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小区“点式+小板式”组合的布局具有强烈的节奏感与韵律感，增加了空间的通透性，满足日照和区内、外景观等视觉要求，建筑空间在大围合的空间尺度内营造宜人的小尺度空间。绿化方式上采用平面、立体绿化浑然一体的思路，为小区增添了回归自然的氛围。</p>
+            <p><a class="btn btn-default" href="switchPage.html" role="button" target="_blank">了解更多 &raquo;</a></p>
+        </div>
+
+        <div class="col-lg-4">
+            <img class="img-circle" src="Images/house2.jpg" alt="Generic placeholder image" width="140" height="140">
+              <h2>乐天小区</h2>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;融汇国际主流理念，缔造生态豪宅人居标杆，采用欧陆新古典建筑风情，完美演绎都市奢华，彰显正统豪门风范，9A级品质保证满屋名牌精装修交付，气派入户大堂，彰显大气奢华。星级管家金碧物业，奢享24小时贴心服务，为业主烘托人生的卓越尺度。</p>
+            <p><a class="btn btn-default" href="#" role="button">了解更多 &raquo;</a></p>
+        </div>
+
+    </div>
+
+
+    <!-- 交友屏 -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h3>我想多交几个好朋友哦 <h5>最好是本学院的，当然本校的也可以</h5></h3>
+            <p class="lead1">我是来自湖北汉江的姚川川，也是外国语学院的金牌主持人。最喜欢的事情是静静地看小说或者和朋友一起下国际象棋，会唱好多俄语民谣，会一点乒乓球。性格自认为是偏内向的，面对异性同学总是会害羞得说不出话，所以希望能在这里多结交几个有缘的异性好朋友，与我一起渡过大学美好时光。</p>
+            <p><a class="btn btn-default" href="#" role="button">了解更多 &raquo;</a></p>
+        </div>
+        <div class="col-md-5">
+            <img src="Images/frend.jpg" class=" img-thumbnail featurette-image img-responsive center-block" data-src="holder.js/400x400/auto" alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+            <h3>翻遍书海不见君 学友你在哪里 <h5>希望能找到一位数学很好的男生做学友</h5></h3>
+            <p class="lead1">我的名字是马臻姗，明年夏天就要出国了，英语是超级棒的，可是我的数学类科目常常需要重修，所以希望能找到一名数学很好的男生做学友互相激励、共同进步。如果你能做我的学友，我将会悉心指导你的英语学习，我可是有过五年英语家教经验。我的爱好是唱泰勒的歌，经常自我陶醉的唱到半夜哑嗓为止，大家都说我的唱功堪比泰勒。</p>
+            <p><a class="btn btn-default" href="#" role="button">了解更多 &raquo;</a></p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+            <img src="Images/2.jpg" class=" img-thumbnail featurette-image img-responsive center-block" data-src="holder.js/400x400/auto" alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h3>君子不器 可邀赏花否 <h5>君子需文、武、礼、义、乐皆具备</h5></h3>
+            <p class="lead1">我是来自工农学院大三的薛欣彪，今年22周岁，希望能邀请到一位女生与我共同夜赏金心池的睡莲。我的身高虽然只有一米七六，在同龄男生中不是高的，但是我的体育却是最好的，有着真正的八块腹肌。我的偶像是黄渤，希望有朝一日能够在茫茫人群中脱颖而出，像黄渤一样开辟自己的一片天。</p>
+            <p><a class="btn btn-default" href="#" role="button">了解更多 &raquo;</a></p>
+        </div>
+        <div class="col-md-5">
+            <img  src="Images/3.jpg" class="featurette-image img-responsive center-block img-thumbnail" data-src="holder.js/400x400/auto" alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+
+    <!-- 学长都知道 -->
+    <br>
+    <div class="jumbotron">
+        <div class="container">
+            <h3>今天学长帮我解决了一个<code>问题</code></h3>
+            <h5 class="p3">我们目前有二元数、四元数，为何没有三元数？ 三元数的“不存在”，并不是指逻辑本源上的不存在，而是指它倘若存在，那么必须要舍弃它的子集实数集所拥有的部分性质，因此这就形成了一个与数系扩充的无关问题，再简单条件下不能成立（如：四则运算及其运算律），并且其实用性远不如二元数（复数系C）与四元数（哈密顿数H）。</h5>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">一起聊聊 &raquo;</a></p>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-md-4">
+                <h3>考研交流</h3>
+                <p class="p4 text-capitalize">对于希望读研的在校大学毕业生来说，一般有两种途径：一是直升研究生;二是报考研究生。在目前多数大学中，直升研究生的名额是有限的。报考研究生应尽早确定学校和专业，收集考研信息，报考研究生应尽早确定学校和专业，收集考研信息对考试科目进行有针对性的复习。</p>
+                <p><a class="btn btn-default" href="#" role="button">一起努力&raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h3>考公交流</h3>
+                <p class="p4 text-capitalize">公务员考试制度使公务员准入门槛逐年降低与更加的公开透明，是大学生踏入社会的主要途径之一。越来越多的大学生把公务员当作一个成长平台并踊跃参加，越来越多的大学生把公务员当作一个成长平台并踊跃参加，也是公务员考试年年火爆的原因之一，也是公务员考试年年火爆的原因之一。</p>
+                <p><a class="btn btn-default" href="#" role="button">一起加油 &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h3>就业交流</h3>
+                <p class="p4 text-capitalize">持续上涨的高校毕业生人数和技术的高速更新导致了就业严峻形势。大学生除了要在学校学好专业知识和技能、制定未来规划，还需要走出校园，利用课余时间了解心仪行业的动向与要求，还需要走出校园，利用课余时间了解心仪行业的动向与要求，并据此不断完善自己的知识与技能储备。</p>
+                <p><a class="btn btn-danger" href="#" role="button">一起创业 &raquo;</a></p>
+            </div>
+        </div>
+         <br><br>
+        <hr class="d1"><br>
+         <!--最新的校园资讯-->
+        <div class="container">
+            <h2 class="text-center">最新校园资讯</h2>
+            <p class="lead text-center">本频道着力为大学生最关心的内容进行推送，提高大学生知识的广度与深度，精心为大学生解读“成长型资讯”、努力为大学生营造一个充实、和谐、团结、拼搏的良好氛围</p>
+            <p><a class="btn btn-lg btn-success news" href="#" role="button">校园头条</a></p>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-md-3">
+                <div class="thumbnail">
+                    <img src="Images/math1.jpg" alt="...">
+                    <div class="caption">
+                        <h3>数理学院</h3>
+                        <p>理学院在原基础课部基础上组建而成，2005年5月成立数理学院。现有信息与计算科学、云计算、光信息科学与技术、电子信息科学与技术、统计学五个本科专业。</p>
+                        <p>
+                        <p><a href="#" class="btn btn-primary" role="button">详情</a>
+                        <a href="#" class="btn btn-default" role="button">忽略</a></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-4 col-md-3">
+                <div class="thumbnail">
+                    <img src="Images/compute1.jpg" alt="...">
+                    <div class="caption">
+                        <h3>信息学院</h3>
+                        <p>信息学院前身计算机科学与技术系成立于1998年8月，2011年4月又更名为信息学院。现有计算机科学与技术、物联网工程两个本科专业和“软件服务外包”招生方向。</p>
+                        <p>
+                            <a href="#" class="btn btn-primary" role="button">详情</a>
+                            <a href="#" class="btn btn-default" role="button">忽略</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3">
+                <div class="thumbnail">
+                    <img src="Images/bu1.jpg" alt="...">
+                    <div class="caption">
+                        <h3>工商学院</h3>
+                        <p>工商管理学院的前身是1983年成立的企业管理系，在社会各界人士的关心支持和师生的共同努力下，经过三十多年的建设与发展，于2010年成立工商学院。</p>
+                        <p>
+                            <a href="#" class="btn btn-primary" role="button">详情</a>
+                            <a href="#" class="btn btn-default" role="button">忽略</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3">
+                <div class="thumbnail">
+                    <img src="Images/art.jpg" alt="...">
+                    <div class="caption">
+                        <h3>艺术学院</h3>
+                        <p>艺术学院成立于1983年，时称工业美术设计系，是山东省创办最早的高等艺术设计院1992年更名为工业设计系2001年更名为艺术设计学院；2011年更名为艺术学院。</p>
+                        <p>
+                            <a href="#" class="btn btn-primary" role="button">详情</a>
+                            <a href="#" class="btn btn-default" role="button">忽略</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- FOOTER -->
+    <footer>
+        <p class="pull-right"><a href="#">开心一刻</a></p>
+        <p>&copy; 2016 WEB特工组, Inc. &middot; <a href="#">静水流深</a> &middot; <a href="#">xiaoxin111</a></p>
+        <p class="text-center">&copy; 2016 WEB特工组, Inc. &middot; <a href="#">静水流深</a> &middot; <a href="#">xiaoxin111</a>
+            &copy; 2016 WEB特工组, Inc. &middot; <a href="#">静水流深</a> &middot;
+        </p>
+
+
+
+        <h4 class="text-center footer">谢谢你的访问我们会为你提供最优质的服务</h4>
+    </footer>
+
+        <a style="display: none" href="javascript:;" class="btn1" title="回到顶端" id="btn11">
+            <span class="btn1-span">回</span>
+            <span class="btn1-span">到</span>
+            <span class="btn1-span">顶</span>
+            <span class="btn1-span">部</span>
+        </a>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal"  style="margin-top: -34px">
+            反馈
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="JavaScript/jquery-1.12.1.js"></script>
+<script src="JavaScript/bootstrap.min.js"></script>
+<!-- Just to make our placeholder Images work. Don't actually copy the next line! -->
+<script src="../../assets/js/vendor/holder.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="JavaScript/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

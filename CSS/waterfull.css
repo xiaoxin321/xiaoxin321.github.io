@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:"Arial","Microsoft YaHei","Adobe 黑体 Std R",sans-serif,"Helvetica Neue","Glyphicons Halflings","Helvetica Neue";
+
+}
+
+
+.box{
+    margin-top: 50px;
+    padding: 20px;
+    position: relative;
+    float: left;
+    /*padding: 6px;*/
+}
+.content{
+    margin-top: 13px;
+    padding:10px;
+    border: 1px solid #cccccc;
+    box-shadow: 0 0  5px #ccc;
+    border-radius: 5px;
+
+}
+.content img{
+    width: 274px;
+    height: auto;
+}
+.a1{
+    font-size: 17px;
+    font-weight: 600;
+}
+.img1{
+    margin-bottom: 1px;
+    margin-top: 8px;
+    padding:5px;
+}
+.pq{
+    margin-left: 5px;
+}

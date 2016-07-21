@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="Images/login_l.png">
+    <title>登陆页面</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style_login.css">
+    <script type="text/javascript" src="JavaScript/JS.js"  charset="UTF-8"></script>
+    <script type="text/javascript" src="JavaScript/jquery-1.12.1.js">  </script>
+    <script type="text/javascript">
+        function changeImg(){
+            $("#authCode").attr("src","createSecurityCoding?d="+new Date().valueOf());
+        }
+    </script>
+</head>
+<body>
+<div class="Login_container">
+    <div class="container_login">
+        <img src="Images/login_l.png">
+        <form action="login" method="post">
+            <table border="0">
+                <tr >
+                    <input  type="text" name="username" value="邮箱/用户名" class="user" onclick="clearContent(this)" >
+                </tr>
+
+                <tr>
+                    <input  type="password" name="password" value="aaaaaaaaaaa" class="psd" onclick="clearContent(this)">
+                </tr>
+                <tr>
+                    <input  type="text" name="security" value="验证码" class="psd_yanzhengma" onclick="clearContent(this)">
+                    <div class="yanzhengma"><img class="yanzhengma1" alt="验证码" src=""  id="authCode"></div>
+                </tr>
+                <a href="javascript:void(0)" onclick="changeImg()" class="securityCode">看不清，换一张</a>
+                <tr>
+                    <td class="remeber1"><input class="remeber" type="checkbox" name="remeber_user">自动登录
+                        <a id="forget" href="Login_admin.jsp"  >管理员登录</a>
+                    </td>
+                    <td><input class="submit" type="submit" value="登录"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <div class="container_zhuce">
+        <p>还没有账号？<a  class="zhuce" href="registe.jsp">立即注册</a></p>
+    </div>
+</div>
+
+</body>
+</html>

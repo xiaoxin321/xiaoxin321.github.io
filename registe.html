@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" href="Images/login_l.png">
+    <title>书店注册页面</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style_login.css">
+    <script type="text/javascript">
+        function clearContent(txt)
+        {
+            txt.value="";
+        }
+        function clearContent(txt)
+        {
+            txt.value="";
+            document.getElementById("zhucetishi").innerHTML="请输入一个 2-14 位的用户名";
+        }
+        function clearContent_xiugai(txt)
+        {
+            txt.value="";
+            document.getElementById("zhucetishi").innerHTML="请输入你原先使用的的用户名";
+        }
+        function clearContentemail(txt)
+        {
+            txt.value="";
+            document.getElementById("emailtishi").innerHTML="请输入你常用的邮箱";
+        }
+        function clearContentpassword(txt)
+        {
+            txt.value="";
+            document.getElementById("passwordtishi").innerHTML="请输入一个6~16位的密码";
+        }
+        function clearContentpassword_xiugai(txt)
+        {
+            txt.value="";
+            document.getElementById("passwordtishi").innerHTML="请输入新的6~16位的密码";
+        }
+        function clearContentpassword1(txt)
+        {
+            txt.value="";
+            document.getElementById("passwordtishi1").innerHTML="确认密码后单击核对按钮，才能注册正确信息";
+        }
+        function check2()
+        {
+            var   user=document.form1.Zuser.value;
+            var   user11=document.getElementById("Zuser");
+            var   user1="电话/用户名";
+            var  email=document.form1.Zemail.value;
+            var  email1=document.getElementById("Zemail");
+            var  psd=document.getElementById("Zpassword");
+            var  psd1=document.getElementById("Zpassword1");
+            var password=document.form1.Zpassword.value;
+            var password1=document.form1.Zpassword1.value;
+            var right=/^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
+            if(user==""||user==user1){
+                user11.style.backgroundColor="red";
+                alert('电话/用户名输入为空，请输入！');
+                return false;
+            } else
+            if (!right.test(email)) {
+                email1.style.backgroundColor="red";
+                alert("邮箱格式错误或者为空！  请重新输入！");
+                return  false;
+            }else
+            if(password!=password1){
+                psd.style.backgroundColor="red";
+                psd1.style.backgroundColor="red";
+                alert('两次密码输入不同，请重新输入！');
+                return false;
+            }  else  if(password==""){
+                psd.style.backgroundColor="red";
+                alert('密码输入不能为空，请重新输入！');
+                return false;
+            }
+            else{
+                alert('信息正确，可以注册了！');
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="Zhuce_container">
+    <div class="zhuce-config">
+        <img src="Images/login_l.png">
+        <p>新用户注册</p>
+        <form  id="form1" name="form1"  action="register" method="post">
+            <table>
+                <tr >
+                    <td>
+                        <!--电话/用户名 -->
+                        <input class="zhuce_user" type="text" id="Zuser" name="Zuser" value="电话/用户名" onclick="clearContent(this)" >
+                    </td>
+                    <td id="zhucetishi" class="zhucetishi"></td>
+                </tr>
+                <tr >
+                    <td>
+                        <!--邮箱 -->
+                        <input class="zhuce_user" id="Zemail" type="text" name="Zemail" value="邮箱" onclick="clearContentemail(this)" >
+                    </td>
+                    <td id="emailtishi" class="emailtishi"></td>
+                </tr>
+                <tr >
+                    <td>
+                        <input class="zhuce_user" type="password" id="Zpassword" name="Zpassword" value="aaaaaaaaaaaaaa" onclick="clearContentpassword(this)" >
+                    </td>
+                    <td id="passwordtishi" class="emailtishi"></td>
+                </tr>
+                <tr >
+                    <td>
+                        <!--Zpassword1 -->
+                        <input class="zhuce_user" type="password" id="Zpassword1" name="Zpassword1" value="aaaaaaaaaaaaaa" onclick="clearContentpassword1(this)" >
+                    </td>
+                    <td id="passwordtishi1" class="emailtishi"></td>
+                </tr>
+                <tr>
+                    <!--我已经同意 -->
+                    <td class="zhuce_remeber1"><input class="zhuce_remeber" type="checkbox" name="Zremeber" checked>我已经同意
+                        <a id="zhuce_xieyi" href="#"  >注册协议</a>
+                    </td>
+                    <td><a id="zhuce_get" href="Login.jsp"  >我已经账户了</a></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="核对" class="reset" onclick="check2()"></td>
+                    <td><input type="submit" value="立即注册" class="Zsubmint"  ></td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

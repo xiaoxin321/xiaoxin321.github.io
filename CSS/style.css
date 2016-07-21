@@ -1,0 +1,93 @@
+*{
+    font-family:"Arial","Microsoft YaHei","Adobe 黑体 Std R",sans-serif,"Helvetica Neue","Glyphicons Halflings","Helvetica Neue";
+    font-size: 17px;
+}
+
+.a1{
+    color:snow;
+    font-size: 20px;
+}
+.a2{
+
+    font-size: 18px;
+    font-weight: 600;
+}
+.rigiste{
+    margin-right: 17px;
+    margin-top: -40px;
+}
+.rigiste2{
+    margin-left: 15px;
+}
+.p1{
+    color: white;
+}
+.lead1{
+    font-size: 17px;
+}
+.p3{
+    line-height: 160%;
+    font-size: 17px;
+}
+.news{
+    margin-left: 515px;
+}
+.d1{
+    margin-top: 20px;
+}
+.p4{
+    font-size: 16px;
+}
+.footer{
+    margin-bottom: -5px;
+}
+.study1{
+    font-size:17px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.fenxiang{
+    font-size:16px;
+}
+.tuijian{
+    font-size:16px;
+}
+.blog1{
+    font-size:50px;
+}
+.blog2{
+    font-weight: 400;
+    color: black;
+}
+.hr1{
+    border: 2px solid silver;
+}
+.div1{
+    font-size: 16px;
+}
+
+.btn1{
+    width: 40px;
+    height: 80px;
+    position: fixed;
+    bottom: 30px;
+    background:grey;
+    left: 50%;
+    margin-left: 610px;
+    border-radius: 5px;
+    font-size:14px;
+}
+.btn1-span{
+    font-size:14px;
+    padding-left:14px;
+    width: 10px;
+    color: white;
+}
+.btn1:hover{
+    background: darkgrey;
+    text-decoration: none;
+}
+.p11{
+    font-size:18px;
+    color: black;
+}
