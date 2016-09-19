@@ -1,0 +1,127 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ArrayProto	.\green\lib\underscore.js	/^  var ArrayProto = Array.prototype, ObjProto = Object.prototype, FuncProto = Function.prototype;$/;"	v
+_	.\green\lib\underscore.js	/^  _.object = function(list, values) {$/;"	f
+_	.\green\lib\underscore.js	/^  var _ = function(obj) {$/;"	c
+_.after	.\green\lib\underscore.js	/^  _.after = function(times, func) {$/;"	f
+_.bind	.\green\lib\underscore.js	/^  _.bind = function(func, context) {$/;"	f
+_.bindAll	.\green\lib\underscore.js	/^  _.bindAll = function(obj) {$/;"	f
+_.chain	.\green\lib\underscore.js	/^  _.chain = function(obj) {$/;"	f
+_.clone	.\green\lib\underscore.js	/^  _.clone = function(obj) {$/;"	f
+_.compact	.\green\lib\underscore.js	/^  _.compact = function(array) {$/;"	f
+_.compose	.\green\lib\underscore.js	/^  _.compose = function() {$/;"	f
+_.constant	.\green\lib\underscore.js	/^  _.constant = function(value) {$/;"	f
+_.debounce	.\green\lib\underscore.js	/^  _.debounce = function(func, wait, immediate) {$/;"	f
+_.debounce.later	.\green\lib\underscore.js	/^    var later = function() {$/;"	f
+_.defaults	.\green\lib\underscore.js	/^  _.defaults = function(obj) {$/;"	f
+_.defer	.\green\lib\underscore.js	/^  _.defer = function(func) {$/;"	f
+_.delay	.\green\lib\underscore.js	/^  _.delay = function(func, wait) {$/;"	f
+_.difference	.\green\lib\underscore.js	/^  _.difference = function(array) {$/;"	f
+_.extend	.\green\lib\underscore.js	/^  _.extend = function(obj) {$/;"	f
+_.findWhere	.\green\lib\underscore.js	/^  _.findWhere = function(obj, attrs) {$/;"	f
+_.flatten	.\green\lib\underscore.js	/^  _.flatten = function(array, shallow) {$/;"	f
+_.has	.\green\lib\underscore.js	/^  _.has = function(obj, key) {$/;"	f
+_.identity	.\green\lib\underscore.js	/^  _.identity = function(value) {$/;"	f
+_.indexOf	.\green\lib\underscore.js	/^  _.indexOf = function(array, item, isSorted) {$/;"	f
+_.initial	.\green\lib\underscore.js	/^  _.initial = function(array, n, guard) {$/;"	f
+_.intersection	.\green\lib\underscore.js	/^  _.intersection = function(array) {$/;"	f
+_.invert	.\green\lib\underscore.js	/^  _.invert = function(obj) {$/;"	f
+_.invoke	.\green\lib\underscore.js	/^  _.invoke = function(obj, method) {$/;"	f
+_.isArguments	.\green\lib\underscore.js	/^    _.isArguments = function(obj) {$/;"	f
+_.isBoolean	.\green\lib\underscore.js	/^  _.isBoolean = function(obj) {$/;"	f
+_.isElement	.\green\lib\underscore.js	/^  _.isElement = function(obj) {$/;"	f
+_.isEmpty	.\green\lib\underscore.js	/^  _.isEmpty = function(obj) {$/;"	f
+_.isEqual	.\green\lib\underscore.js	/^  _.isEqual = function(a, b) {$/;"	f
+_.isFinite	.\green\lib\underscore.js	/^  _.isFinite = function(obj) {$/;"	f
+_.isFunction	.\green\lib\underscore.js	/^    _.isFunction = function(obj) {$/;"	f
+_.isNaN	.\green\lib\underscore.js	/^  _.isNaN = function(obj) {$/;"	f
+_.isNull	.\green\lib\underscore.js	/^  _.isNull = function(obj) {$/;"	f
+_.isObject	.\green\lib\underscore.js	/^  _.isObject = function(obj) {$/;"	f
+_.isUndefined	.\green\lib\underscore.js	/^  _.isUndefined = function(obj) {$/;"	f
+_.keys	.\green\lib\underscore.js	/^  _.keys = function(obj) {$/;"	f
+_.last	.\green\lib\underscore.js	/^  _.last = function(array, n, guard) {$/;"	f
+_.lastIndexOf	.\green\lib\underscore.js	/^  _.lastIndexOf = function(array, item, from) {$/;"	f
+_.matches	.\green\lib\underscore.js	/^  _.matches = function(attrs) {$/;"	f
+_.max	.\green\lib\underscore.js	/^  _.max = function(obj, iterator, context) {$/;"	f
+_.memoize	.\green\lib\underscore.js	/^  _.memoize = function(func, hasher) {$/;"	f
+_.min	.\green\lib\underscore.js	/^  _.min = function(obj, iterator, context) {$/;"	f
+_.mixin	.\green\lib\underscore.js	/^  _.mixin = function(obj) {$/;"	f
+_.noConflict	.\green\lib\underscore.js	/^  _.noConflict = function() {$/;"	f
+_.omit	.\green\lib\underscore.js	/^  _.omit = function(obj) {$/;"	f
+_.once	.\green\lib\underscore.js	/^  _.once = function(func) {$/;"	f
+_.pairs	.\green\lib\underscore.js	/^  _.pairs = function(obj) {$/;"	f
+_.partial	.\green\lib\underscore.js	/^  _.partial = function(func) {$/;"	f
+_.partition	.\green\lib\underscore.js	/^  _.partition = function(array, predicate) {$/;"	f
+_.pick	.\green\lib\underscore.js	/^  _.pick = function(obj) {$/;"	f
+_.pluck	.\green\lib\underscore.js	/^  _.pluck = function(obj, key) {$/;"	f
+_.property	.\green\lib\underscore.js	/^  _.property = function(key) {$/;"	f
+_.random	.\green\lib\underscore.js	/^  _.random = function(min, max) {$/;"	f
+_.range	.\green\lib\underscore.js	/^  _.range = function(start, stop, step) {$/;"	f
+_.reject	.\green\lib\underscore.js	/^  _.reject = function(obj, predicate, context) {$/;"	f
+_.result	.\green\lib\underscore.js	/^  _.result = function(object, property) {$/;"	f
+_.sample	.\green\lib\underscore.js	/^  _.sample = function(obj, n, guard) {$/;"	f
+_.shuffle	.\green\lib\underscore.js	/^  _.shuffle = function(obj) {$/;"	f
+_.size	.\green\lib\underscore.js	/^  _.size = function(obj) {$/;"	f
+_.sortBy	.\green\lib\underscore.js	/^  _.sortBy = function(obj, iterator, context) {$/;"	f
+_.sortedIndex	.\green\lib\underscore.js	/^  _.sortedIndex = function(array, obj, iterator, context) {$/;"	f
+_.tap	.\green\lib\underscore.js	/^  _.tap = function(obj, interceptor) {$/;"	f
+_.templateSettings.evaluate	.\green\lib\underscore.js	/^    evaluate    : \/<%([\\s\\S]+?)%>\/g,$/;"	p
+_.throttle	.\green\lib\underscore.js	/^  _.throttle = function(func, wait, options) {$/;"	f
+_.throttle.later	.\green\lib\underscore.js	/^    var later = function() {$/;"	f
+_.times	.\green\lib\underscore.js	/^  _.times = function(n, iterator, context) {$/;"	f
+_.toArray	.\green\lib\underscore.js	/^  _.toArray = function(obj) {$/;"	f
+_.union	.\green\lib\underscore.js	/^  _.union = function() {$/;"	f
+_.uniqueId	.\green\lib\underscore.js	/^  _.uniqueId = function(prefix) {$/;"	f
+_.values	.\green\lib\underscore.js	/^  _.values = function(obj) {$/;"	f
+_.where	.\green\lib\underscore.js	/^  _.where = function(obj, attrs) {$/;"	f
+_.without	.\green\lib\underscore.js	/^  _.without = function(array) {$/;"	f
+_.wrap	.\green\lib\underscore.js	/^  _.wrap = function(func, wrapper) {$/;"	f
+_.zip	.\green\lib\underscore.js	/^  _.zip = function() {$/;"	f
+_lang.zh	.\green\js\game.js	/^        zh: {title: "看你有多色",help_txt: "找出所有色块里颜色不同的一个",score: "得分:",btn_pause: "暂停",btn_normal: "普通场",btn_double: "双飞场",btn_normal_mode: "普通模式",btn_double_mode: "双飞模式",btn_reTry: "重来",btn_more_game: "更多游戏",game_pause: "游戏暂停",btn_resume: "继续",loading: "加载中...",lv_txt: ["瞎子", "色盲", "色郎", "色狼", "色鬼", "色魔", "超级色魔", "变态色魔", "孤独求色"],lv_txt2: ["色不起来", "有色心没色胆", "好色之徒", "色胆包天", "色不知耻", "英雄本色", "色射具全", "裸色舔香", "衣冠禽色"],tips: '再得<em id="_score"><\/em>分，就可再打败<em id="_num"><\/em>万人',share_txt_d: "[双飞]",share_txt1: "我怒砍",share_txt2: "分,击败",share_txt3: "%的人,我是[",share_txt4: "],不服来战！",coyright: "版权归博雅所有.侵权必究 v1.2.1",desc: "找出所有色块中颜色不同的一块。分享朋友圈，找到身边的色魔"},$/;"	p
+aCtor	.\green\lib\underscore.js	/^    var aCtor = a.constructor, bCtor = b.constructor;$/;"	v
+b..renderUI	.\green\js\game.js	/^            renderUI: function() {$/;"	m
+b.b.b..start	.\green\js\game.js	/^            start: function() {$/;"	m
+b.b.b..tick	.\green\js\game.js	/^            tick: function() {              \/\/游戏结束判断$/;"	m
+b.b.b.b..resume	.\green\js\game.js	/^            resume: function() {$/;"	m
+b.b.b.b..share	.\green\js\game.js	/^            share: function() {$/;"	m
+color	.\green\js\game.js	/^        color: {$/;"	p
+ctor	.\green\lib\underscore.js	/^      ctor.prototype = null;$/;"	c
+ctor	.\green\lib\underscore.js	/^  var ctor = function(){};$/;"	f
+d	.\green\js\pic.js	/^            var d = c + "lv" + lv;$/;"	v
+entityMap.escape	.\green\lib\underscore.js	/^    escape: {$/;"	p
+entityRegexes.escape	.\green\lib\underscore.js	/^    escape:   new RegExp('[' + _.keys(entityMap.escape).join('') + ']', 'g'),$/;"	p
+eq	.\green\lib\underscore.js	/^  var eq = function(a, b, aStack, bStack) {$/;"	f
+escapes.'	.\green\lib\underscore.js	/^    "'":      "'",$/;"	p
+escapes.\	.\green\lib\underscore.js	/^    '\\\\':     '\\\\',$/;"	p
+escapes.n	.\green\lib\underscore.js	/^    '\\n':     'n',$/;"	p
+escapes.r	.\green\lib\underscore.js	/^    '\\r':     'r',$/;"	p
+escapes.t	.\green\lib\underscore.js	/^    '\\t':     't',$/;"	p
+escapes.u2028	.\green\lib\underscore.js	/^    '\\u2028': 'u2028',$/;"	p
+escapes.u2029	.\green\lib\underscore.js	/^    '\\u2029': 'u2029'$/;"	p
+finded	.\green\js\game.js	/^            finded: 0,$/;"	p
+flatten	.\green\lib\underscore.js	/^  var flatten = function(input, shallow, output) {$/;"	f
+g	.\green\js\game.js	/^                var g = "color2" == this.type ? "d_" : "";$/;"	v
+group	.\green\lib\underscore.js	/^  var group = function(behavior) {$/;"	f
+idCounter	.\green\lib\underscore.js	/^  var idCounter = 0;$/;"	v
+imgUrl	.\green\js\game.js	/^        imgUrl: "http:\/\/wbpkh5001.17c.cn\/html5\/assets\/img\/find.logo.png?ver=1.1.62",$/;"	p
+index	.\green\js\app.js	/^            index: $("#index"),$/;"	p
+init	.\green\js\game.js	/^            init: function(type, el, parent) {$/;"	m
+lang	.\green\js\game.js	/^        lang: "zh",$/;"	p
+lookupIterator	.\green\lib\underscore.js	/^  var lookupIterator = function(value) {$/;"	f
+nativeForEach	.\green\lib\underscore.js	/^    nativeForEach      = ArrayProto.forEach,$/;"	v
+noMatch	.\green\lib\underscore.js	/^  var noMatch = \/(.)^\/;$/;"	v
+previousUnderscore	.\green\lib\underscore.js	/^  var previousUnderscore = root._;$/;"	v
+push	.\green\lib\underscore.js	/^    push             = ArrayProto.push,$/;"	v
+reduceError	.\green\lib\underscore.js	/^  var reduceError = 'Reduce of empty array with no initial value';$/;"	v
+result	.\green\lib\underscore.js	/^  var result = function(obj) {$/;"	f
+return	.\green\lib\underscore.js	/^    return bound = function() {$/;"	f
+score	.\green\js\game.js	/^            score: 0,$/;"	p
+size	.\green\lib\underscore.js	/^    var size = 0, result = true;$/;"	v
+tTitle	.\green\js\game.js	/^        tTitle: _lang[_config.lang].title,$/;"	p
+target	.\green\js\game.js	/^            target: 1,$/;"	p
+template	.\green\lib\underscore.js	/^    var template = function(data) {$/;"	f
+timeLineLink	.\green\js\game.js	/^        timeLineLink: "http:\/\/url.cn\/RN8G9E",$/;"	p
